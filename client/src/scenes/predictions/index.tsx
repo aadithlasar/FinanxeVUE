@@ -1,4 +1,4 @@
-/*import DashboardBox from "@/components/DashboardBox";
+import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";
 import { useGetKpisQuery } from "@/state/api";
 import { Box, Button, Typography, useTheme } from "@mui/material";
@@ -81,10 +81,10 @@ const Predictions = () => {
             domain={[12000, 26000]}
             axisLine={{ strokeWidth: "0" }}
             style={{ fontSize: "10px" }}
-            tickFormatter={(v) => `$${v}`}
+            tickFormatter={(v) => `₹${v}`}
           >
             <Label
-              value="Revenue in USD"
+              value="Revenue in INR"
               angle={-90}
               offset={-5}
               position="insideLeft"
@@ -118,4 +118,4 @@ const Predictions = () => {
   );
 };
 
-export default Predictions; */
+export default Predictions;

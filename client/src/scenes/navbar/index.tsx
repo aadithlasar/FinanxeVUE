@@ -4,9 +4,9 @@ import PixIcon from "@mui/icons-material/Pix";
 import { Box, Typography, useTheme } from "@mui/material";
 import FlexBetween from "@/components/FlexBetween";
 
-type Props = {};
 
-const Navbar = (props: Props) => {
+
+const Navbar = () => {
   const { palette } = useTheme();
   const [selected, setSelected] = useState("dashboard");
   return (
@@ -14,8 +14,11 @@ const Navbar = (props: Props) => {
       {/* LEFT SIDE */}
       <FlexBetween gap="0.75rem">
         <PixIcon sx={{ fontSize: "28px" }} />
-        <Typography variant="h4" fontSize="16px">
+        <Typography variant="h4" fontSize="18px">
           FinanceVUE
+        </Typography>
+        <Typography variant="h6" fontSize="14px">
+          by Aadith & Kaarshnee
         </Typography>
       </FlexBetween>
 
