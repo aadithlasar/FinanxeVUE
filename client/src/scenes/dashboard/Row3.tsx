@@ -200,7 +200,7 @@ const Row3 = () => {
             bgcolor={palette.primary[600]}
             borderRadius="1rem"
             width="40%"
-          ></Box>
+           />
         </Box>
         <Typography margin="0 1rem" variant="h6">
         The current utilization of inventory stands at an unprecedented 40%, reflecting robust inventory management practices that foster intense competition among the industry's foremost contenders.It's evident that this strategic inventory management has become a pivotal factor in sustaining a thriving and competitive market landscape.  
